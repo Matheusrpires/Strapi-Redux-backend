@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "usercategoris",
+  "info": {
+    "name": "usercategori"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "categories": {
+      "type": "json"
+    },
+    "user_id": {
+      "type": "uid"
+    }
+  }
+}
